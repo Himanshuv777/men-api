@@ -26,5 +26,5 @@ const getUsers = async (endpoint) => {
 };
 
 setTimeout(() => {
-	getUsers('http://localhost:4000/api/users');
+	getUsers('http://localhost:5000/api/users');
 }, 1000);
